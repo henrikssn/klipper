@@ -66,4 +66,4 @@ fi
 
 # Run Script
 echo "Flashing ${KLIPPER_BIN} to ${DEVICE}"
-${KLIPPY_ENV} ${SPI_FLASH} ${BAUD_ARG} ${DEVICE} ${BOARD} ${KLIPPER_BIN}
+${KLIPPY_ENV} ${SPI_FLASH} -v ${BAUD_ARG} ${DEVICE} ${BOARD} ${KLIPPER_BIN}
